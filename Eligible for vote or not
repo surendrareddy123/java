@@ -1,0 +1,12 @@
+class Voting{
+public static void main(String[]args){
+int age,diff;
+Scanner scan = new Scanner(System.in); System.out.println("please enter your age:"); age=scan.nextInt();
+if(age>=18)
+{
+System.out.println("you are eligible for voting"); }
+else {
+diff=(18-age);
+System.out.println("sorry,you can vote after:"+diff+" years");
+}
+} }
