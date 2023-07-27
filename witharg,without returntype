@@ -1,0 +1,14 @@
+class example
+{
+ void display(int a,int b)
+{
+ int sum;
+ sum=a+b;
+ System.out.println(sum);
+}
+ public static void main(String[]args)
+{
+ example s=new example();
+ s.display(10,24);
+}
+}
